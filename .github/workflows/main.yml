@@ -40,7 +40,7 @@ jobs:
 
     - name: Assign User
 
-      run: Set-LocalUser -Name "runneradmin" -Password (ConvertTo-SecureString -AsPlainText "Techguy20" -Force)
+      run: Set-LocalUser -Name "runneradmin" -Password (ConvertTo-SecureString -AsPlainText "Mrhaxter" -Force)
 
     - name: Create Tunnel
 
